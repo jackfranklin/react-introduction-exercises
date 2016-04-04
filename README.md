@@ -21,7 +21,7 @@
 - this.props contains all the properties given to your component.
 - Props can also be JavaScript values :
 
-```js
+```jsx
 var name = “Jack";
 ReactDOM.render(
   <App name={name} />,
@@ -80,7 +80,7 @@ ReactDOM.render(
 
 We can pass props into components that can be any JS object - including functions. Let’s give the TodoForm a function to call when it adds a new todo:
 
-```js
+```jsx
 onCreate: function(todo) {
   // add the todo
 },
